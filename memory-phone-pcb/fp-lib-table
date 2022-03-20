@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "MemoryPhone_footprints")(type "KiCad")(uri "${KIPRJMOD}/libs/MemoryPhone_footprints.pretty")(options "")(descr ""))
+)

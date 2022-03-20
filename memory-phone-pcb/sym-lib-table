@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MemoryPhone_sym")(type "KiCad")(uri "${KIPRJMOD}/libs/MemoryPhone_sym.kicad_sym")(options "")(descr ""))
+)
