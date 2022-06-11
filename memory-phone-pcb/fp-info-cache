@@ -1,4 +1,4 @@
-20122239487345828
+20125545304533486
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57596,12 +57596,26 @@ Through hole pin header THT 2x20 2.54mm double row
 86
 43
 MemoryPhone_footprints
+DM3D-SF
+
+
+0
+14
+14
+MemoryPhone_footprints
 RP2040-QFN-56
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
 70
 57
+MemoryPhone_footprints
+TC33X-1
+
+
+0
+3
+3
 MemoryPhone_footprints
 W25Q16JVSSIQ
 
