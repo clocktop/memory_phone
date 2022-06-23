@@ -121,6 +121,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_spi/include"
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_dma/include"
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/include"
+  "../lib/mic/include/pico"
+  "/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -152,6 +154,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/clocktop/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "/Users/clocktop/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "/Users/clocktop/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d"
@@ -184,6 +187,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/Users/clocktop/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/mic/src/analog_microphone.c" "CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj" "gcc" "CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj.d"
   "/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.c" "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.c.obj" "gcc" "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.c.obj.d"
   "/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.c" "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.c.obj" "gcc" "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffsystem.c.obj.d"
   "/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.c" "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.c.obj" "gcc" "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ffunicode.c.obj.d"

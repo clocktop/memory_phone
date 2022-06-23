@@ -829,6 +829,30 @@ Users/clocktop/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/clocktop/pico-sdk/src/common/pico_util/queue.c.s
 
+Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -1709,6 +1733,30 @@ Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+lib/mic/src/analog_microphone.obj: lib/mic/src/analog_microphone.c.obj
+.PHONY : lib/mic/src/analog_microphone.obj
+
+# target to build an object file
+lib/mic/src/analog_microphone.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj
+.PHONY : lib/mic/src/analog_microphone.c.obj
+
+lib/mic/src/analog_microphone.i: lib/mic/src/analog_microphone.c.i
+.PHONY : lib/mic/src/analog_microphone.i
+
+# target to preprocess a source file
+lib/mic/src/analog_microphone.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.i
+.PHONY : lib/mic/src/analog_microphone.c.i
+
+lib/mic/src/analog_microphone.s: lib/mic/src/analog_microphone.c.s
+.PHONY : lib/mic/src/analog_microphone.s
+
+# target to generate assembly for a file
+lib/mic/src/analog_microphone.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory_phone.dir/build.make CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.s
+.PHONY : lib/mic/src/analog_microphone.c.s
+
 lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.obj: lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.c.obj
 .PHONY : lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.obj
 
@@ -2139,6 +2187,9 @@ help:
 	@echo "... Users/clocktop/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/clocktop/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/clocktop/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/clocktop/pico-sdk/src/rp2_common/hardware_claim/claim.s"
@@ -2249,6 +2300,9 @@ help:
 	@echo "... Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... Users/clocktop/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... lib/mic/src/analog_microphone.obj"
+	@echo "... lib/mic/src/analog_microphone.i"
+	@echo "... lib/mic/src/analog_microphone.s"
 	@echo "... lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.obj"
 	@echo "... lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.i"
 	@echo "... lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff14a/source/ff.s"

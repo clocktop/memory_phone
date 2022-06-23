@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.23.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.23.1/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+  "../lib/mic/CMakeLists.txt"
   "../lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
   "/Users/clocktop/pico-sdk/CMakeLists.txt"
   "/Users/clocktop/pico-sdk/cmake/Platform/PICO.cmake"
@@ -287,6 +288,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/mic/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

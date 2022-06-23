@@ -17,8 +17,11 @@ add_executable(${PROJECT_NAME}
     main.c
 )
 
+#add analog mic lib stuff
+
 # Tell CMake where to find other source code
 add_subdirectory(lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
+add_subdirectory(lib/mic)
 
 # Create map/bin/hex/uf2 files
 pico_add_extra_outputs(${PROJECT_NAME})
@@ -27,6 +30,9 @@ pico_add_extra_outputs(${PROJECT_NAME})
 target_link_libraries(${PROJECT_NAME} 
     pico_stdlib
     FatFs_SPI
+    pico_analog_microphone
+    hardware_adc
+    hardware_dma
 )
 
 # Enable usb output, disable uart output

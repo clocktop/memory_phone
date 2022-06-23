@@ -13,7 +13,7 @@
 #include "hardware/dma.h"
 #include "hardware/irq.h"
 
-#include "pico/analog_microphone.h"
+#include "analog_microphone.h"
 
 #define ANALOG_RAW_BUFFER_COUNT 2
 

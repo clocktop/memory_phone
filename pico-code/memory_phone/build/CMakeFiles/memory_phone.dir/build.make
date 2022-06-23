@@ -1248,6 +1248,34 @@ CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 
+CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj: CMakeFiles/memory_phone.dir/flags.make
+CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj: ../lib/mic/src/analog_microphone.c
+CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj: CMakeFiles/memory_phone.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj -MF CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj.d -o CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj -c /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/mic/src/analog_microphone.c
+
+CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/mic/src/analog_microphone.c > CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.i
+
+CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/lib/mic/src/analog_microphone.c -o CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.s
+
+CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/memory_phone.dir/flags.make
+CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/memory_phone.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target memory_phone
 memory_phone_OBJECTS = \
 "CMakeFiles/memory_phone.dir/main.c.obj" \
@@ -1334,7 +1362,9 @@ memory_phone_OBJECTS = \
 "CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj" \
 "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
 "CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+"CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj" \
+"CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj" \
+"CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target memory_phone
 memory_phone_EXTERNAL_OBJECTS =
@@ -1424,10 +1454,12 @@ memory_phone.elf: CMakeFiles/memory_phone.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/Fa
 memory_phone.elf: CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 memory_phone.elf: CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 memory_phone.elf: CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+memory_phone.elf: CMakeFiles/memory_phone.dir/lib/mic/src/analog_microphone.c.obj
+memory_phone.elf: CMakeFiles/memory_phone.dir/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 memory_phone.elf: CMakeFiles/memory_phone.dir/build.make
 memory_phone.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 memory_phone.elf: CMakeFiles/memory_phone.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX executable memory_phone.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable memory_phone.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memory_phone.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/memory_phone.elf memory_phone.hex
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/memory_phone.elf memory_phone.bin

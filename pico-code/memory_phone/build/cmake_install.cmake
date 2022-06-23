@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/pico-sdk/cmake_install.cmake")
   include("/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/build/cmake_install.cmake")
+  include("/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/lib/mic/cmake_install.cmake")
 
 endif()
 

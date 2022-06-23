@@ -147,3 +147,5 @@
 /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/build/CMakeFiles/edit_cache.dir
 /Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/build/CMakeFiles/rebuild_cache.dir
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/lib/mic/CMakeFiles/edit_cache.dir
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/lib/mic/CMakeFiles/rebuild_cache.dir
