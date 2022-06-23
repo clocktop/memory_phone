@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles/ELF2UF2Build
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles/ELF2UF2Build.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/CMakeFiles/ELF2UF2Build-complete.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/Users/clocktop/Documents/Memory-Phone/pico-code/memory_phone/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

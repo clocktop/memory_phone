@@ -10,26 +10,35 @@ int main() {
     FIL fil;
     int ret;
     char buf[100];
-    char filename[] = "test02.txt";
+    char filename[] = "test033.txt";
+    const uint led_pin = 25;
+
+    gpio_init(led_pin);
+    gpio_set_dir(led_pin, GPIO_OUT);
 
     // Initialize chosen serial port
     stdio_init_all();
+    sleep_ms(500);
 
     // Wait for user to press 'enter' to continue
     printf("\r\nSD card test. Press 'enter' to start.\r\n");
+    /*
     while (true) {
         buf[0] = getchar();
         if ((buf[0] == '\r') || (buf[0] == '\n')) {
             break;
         }
+        sleep_ms(100);
     }
-
+    */
+    
+    
     // Initialize SD card
     if (!sd_init_driver()) {
         printf("ERROR: Could not initialize SD card\r\n");
         while (true);
     }
-/*
+
     // Mount drive
     fr = f_mount(&fs, "0:", 1);
     if (fr != FR_OK) {
@@ -89,9 +98,14 @@ int main() {
 
     // Unmount drive
     f_unmount("0:");
-*/
+    
     // Loop forever doing nothing
     while (true) {
+        // Blink LED
+        printf("Blinking2!\r\n");
+        gpio_put(led_pin, true);
+        sleep_ms(1000);
+        gpio_put(led_pin, false);
         sleep_ms(1000);
     }
 }
