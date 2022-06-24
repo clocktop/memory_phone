@@ -3695,7 +3695,36 @@ CMakeFiles/memory_phone.dir/main.c.obj: ../main.c \
   /Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+  /Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  ../lib/mic/include/pico/analog_microphone.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Applications/ARM/arm-none-eabi/include/string.h \
+  /Applications/ARM/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ARM/arm-none-eabi/include/strings.h \
+  /Applications/ARM/arm-none-eabi/include/sys/string.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/clocktop/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_error.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/clocktop/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/clocktop/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/clocktop/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/clocktop/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/clocktop/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
 
 
 ../main.c:
