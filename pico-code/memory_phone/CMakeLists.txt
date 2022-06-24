@@ -33,6 +33,7 @@ target_link_libraries(${PROJECT_NAME}
     pico_analog_microphone
     hardware_adc
     hardware_dma
+    hardware_pwm
 )
 
 # Enable usb output, disable uart output

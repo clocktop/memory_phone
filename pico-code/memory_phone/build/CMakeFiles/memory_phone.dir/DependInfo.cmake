@@ -123,6 +123,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_rtc/include"
   "../lib/mic/include/pico"
   "/Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/include"
+  "/Users/clocktop/pico-sdk/src/rp2_common/hardware_pwm/include"
   )
 
 # The set of dependency files which are needed:

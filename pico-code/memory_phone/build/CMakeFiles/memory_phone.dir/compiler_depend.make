@@ -3724,8 +3724,22 @@ CMakeFiles/memory_phone.dir/main.c.obj: ../main.c \
   /Users/clocktop/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
   /Users/clocktop/pico-sdk/lib/tinyusb/src/device/usbd.h \
   /Users/clocktop/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  /Users/clocktop/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
+  /Users/clocktop/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/clocktop/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  ../test.h \
+  /Users/clocktop/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
+  /Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
+  /Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+  /Users/clocktop/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
+
+/Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
+
+../test.h:
 
 ../main.c:
 
@@ -4115,6 +4129,8 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/clocktop/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
+/Users/clocktop/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
+
 /Applications/ARM/arm-none-eabi/include/machine/_endian.h:
 
 /Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h:
@@ -4132,6 +4148,8 @@ generated/pico_base/pico/config_autogen.h:
 /Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
 
 generated/pico_base/pico/version.h:
+
+/Users/clocktop/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
 
 /Users/clocktop/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
